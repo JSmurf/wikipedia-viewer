@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <base target="_blank">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class = "container-fluid col-xs-12">
+<h1>Wikipedia Viewer</h1>
+  <p>Enter a search term below and click "Search," or click "Random" for a random Wikipedia article. </p>
+<div class = "form-group">
+<a class="btn btn-success col-xs-3" href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Random</a>
+
+<div class = "col-xs-6">
+<input class="form-control" id="searchTerm" type="text" placeholder="Search Here"></input>
+  </div>
+<button class = "col-xs-3 btn btn-primary" type = "button" id = "search">Search</button>
+
+
+ </div>
+<div class = "results">
+  <ul class = "list-unstyled" id="results"></ul>
+  <div>
+</div>
+  <script src='https://code.jquery.com/jquery-latest.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

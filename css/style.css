@@ -1,0 +1,24 @@
+body {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left:  20px;
+  margin-right:  20px;
+  
+}
+
+h1, p {
+  text-align: center;
+  
+}
+
+.form-group {
+  margin-top: 25px;
+  
+}
+
+
+.results{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  
+}
